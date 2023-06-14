@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #555;
+    text-align: center;
+}
+
+input {
+    background: #ffffff;
+    width: 100%;
+    height: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.functionInputBar {
+    width: 100%;
+    align-items: center;
+}
+
+.functionDeleteButton {
+    width: 3%;
+}
+
+.functionInput {
+    width: 93%;
+    margin-right: 2%;
+}
+
+.valueInput {
+    width: 20%;
+}
+
+canvas {
+    border: 2px solid black;
+}
+
+button {
+    width: 20%;
+    height: 40px;
+    border-radius: 0px;
+    background: #555;
+    color: white;
+    font-size: 1.2em;
+}

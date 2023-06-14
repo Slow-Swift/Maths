@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="Maths.js"></script>
+    <script src="index.js"></script>
+    <script src="tokenizer.js"></script>
+    <script src="parser.js"></script>
+    <script src="ASTNode.js"></script>
+    <script src="grapher.js"></script>
+    <script src="function.js"></script>
+    <title>Maths</title>
+</head>
+<body onload="initialize()">
+    <h3>Input Formula:</h3>
+    <input type="text" id="inputFormula" placeholder="input function...">
+    <div id="functionInputs"></div>
+    <div id="varInputs"></div>
+    <button onclick="OnSubmitPressed()">Submit</button>
+    <button onclick="OnAddFunctionPressed()">Add Function</button>
+    <button onclick="OnCalculatePressed()">Calculate</button>
+    <h3 id="result">Result:Hello</h3>
+    <canvas id="graphCanvas" width="600" height="600"></canvas>
+    <textarea name="" id="textarea" cols="50" rows="30"></textarea>
+</body>
+</html>
